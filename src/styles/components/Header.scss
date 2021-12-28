@@ -1,0 +1,27 @@
+.main-header{
+    
+    height: 4rem;
+    .header-row{
+        margin-top: 5px;
+        width: 100%;
+        align-items: center;
+        .content-list {
+            display: flex;
+            float: right;
+            
+        }
+    }
+    
+}
+
+.connect-button{
+    float: right;
+    margin-top: 30px;
+}
+
+.logo{
+    
+    width: 230px;   
+    float: left;
+    object-fit: cover;
+}

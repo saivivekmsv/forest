@@ -1,0 +1,65 @@
+ 
+.home-content{
+
+    position: absolute;
+    background-image: url(../../assets/background.jpg);
+    height: 100%;
+    width: 100%;    
+    background-size: contain;
+    padding-left: 0 !important;
+}
+
+.menu-tile {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;  
+    transition: width 2s, height 2s;
+    
+    :hover {
+        width: 210px;
+        height: 210px;
+    }
+    
+}
+
+.text-menu {
+    position: absolute;
+    font-family: "WonderBar";
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.tile-image {
+    object-fit: cover;    
+    
+    
+}
+
+
+
+.menu-container {    
+    margin-top: auto;
+    position: fixed;
+    bottom: 10%;
+    .menu-row { 
+        display: flex;
+        justify-content: space-between;
+        height: 80%;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 55px;
+        
+        @media only screen and (device-width: 768px) {
+          width: 100%;
+          padding-left: 15px;
+        }
+        @media only screen and (max-width: 1439px) {
+          height: 90%;
+        }
+      }
+
+}
+

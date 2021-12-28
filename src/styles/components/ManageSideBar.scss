@@ -1,0 +1,13 @@
+.side-bar-menu {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border: 2px solid green;
+    text-align: center;
+    .side-menu-text {
+        font-family: "WonderBar";
+        font-size: 1.5rem;
+        color: #512D15;
+        margin-top: 0.5rem;
+    }
+}
